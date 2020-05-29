@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Username",userName.getText().toString());
         Log.i("Password",password.getText().toString());
         Toast.makeText(this, "Hi"+ userName.getText().toString(), Toast.LENGTH_SHORT).show();
+        
     }
 
     @Override
